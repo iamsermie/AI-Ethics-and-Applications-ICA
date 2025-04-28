@@ -1,20 +1,27 @@
-Machine Learning ICA
+age: The person's age in years
 
-Prediction of Breast Cancer using logistic regression and Random Foreest Algorithm
+sex: The person's sex (1 = male, 0 = female)
 
+cp: The chest pain experienced (Value 1: typical angina, Value 2: atypical angina, Value 3: non-anginal pain, Value 4: asymptomatic)
 
-The Notebook is as easy as it seems, you can download it with the dataset import it into the Workspace and run each code line by line.
+trestbps: The person's resting blood pressure (mm Hg on admission to the hospital)
 
-I worked with 2 datasets here.
+chol: The person's cholesterol measurement in mg/dl
 
-The first datasets has less row which is required for my ICA.
+fbs: The person's fasting blood sugar (> 120 mg/dl, 1 = true; 0 = false)
 
-Which is why I decided to go for the updated datasets which has over 5000 rows and over 30 features 
+restecg: Resting electrocardiographic measurement (0 = normal, 1 = having ST-T wave abnormality, 2 = showing probable or definite left ventricular hypertrophy by Estes' criteria)
 
-I Plan on splitting the dating using 20% for testing and 80% for training.
+thalach: The person's maximum heart rate achieved
 
-The Algorithms to be used are 
+exang: Exercise induced angina (1 = yes; 0 = no)
 
-Logistic Regression 
-Random Forest Algorithm
-Support vector Machine
+oldpeak: ST depression induced by exercise relative to rest ('ST' relates to positions on the ECG plot. See more here)
+
+slope: the slope of the peak exercise ST segment (Value 1: upsloping, Value 2: flat, Value 3: downsloping)
+
+ca: The number of major vessels (0-3)
+
+thal: A blood disorder called thalassemia (3 = normal; 6 = fixed defect; 7 = reversable defect)
+
+target: Heart disease (0 = no, 1 = yes)
